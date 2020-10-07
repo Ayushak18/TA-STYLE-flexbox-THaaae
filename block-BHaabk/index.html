@@ -1,0 +1,93 @@
+<!-- 
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the brand name to the left and all the navigation to the right.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Use flexbox properties and values to create columns.
+ -->
+
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>Block 3 Flex Box</title>
+        <link rel="stylesheet" href="./index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="brand">
+                <img src="./altcampus-logo.svg" alt="Brand Logo">
+            </div>
+            <div class="navigation">
+                <nav>
+                    <a href="">Home</a>
+                    <a href="">About Us</a>
+                    <a href="">Developers</a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section>
+                <article>
+                    <div class="text-img col-one">
+                        <h1>Breaking Bad</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nostrum consequuntur nemo laudantium blanditiis iste officia omnis dolore natus sint quasi itaque tenetur dolorum reprehenderit cupiditate rem numquam, enim saepe?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat sequi laudantium natus ad? Deleniti eum sapiente fuga ipsa reiciendis, distinctio cupiditate consequatur. Minima soluta, quisquam quia natus sit cum debitis?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nostrum consequuntur nemo laudantium blanditiis iste officia omnis dolore natus sint quasi itaque tenetur dolorum reprehenderit cupiditate rem numquam, enim saepe?
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat sequi laudantium natus ad? Deleniti eum      sapiente fuga ipsa reiciendis, distinctio cupiditate consequatur. Minima soluta, quisquam quia natus sit cum debitis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nostrum consequuntur nemo laudantium blanditiis iste officia omnis dolore natus sint quasi itaque tenetur dolorum reprehenderit cupiditate rem numquam, enim saepe?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat sequi laudantium natus ad? Deleniti eum sapiente fuga ipsa reiciendis, distinctio cupiditate consequatur. Minima soluta, quisquam quia natus sit cum debitis?
+                        </p>
+                    </div>
+                    <div class="text-img col-two">
+                        <img src="https://images.unsplash.com/photo-1602041100333-082e76b16e51?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1532&q=80" alt="Aricle-Image" width="400px" height="500px">
+                    </div>
+                </article>
+                <div class="gallery">
+                    <div class="row-one">
+                        <div class="col one">
+                            <img src="https://images.unsplash.com/photo-1601974915460-f55ea921f8ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1360&q=80" alt="">
+                        </div>
+                        <div class="col two">
+                            <img src="https://images.unsplash.com/photo-1602028418609-2d3e3c4af9f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="">
+                        </div>
+                        <div class="col three">
+                            <img src="https://images.unsplash.com/photo-1602016082275-1c502e6d8100?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="">
+                        </div>
+                    </div>
+                    <div class="row-two">
+                        <div class="col one">
+                            <img src="https://images.unsplash.com/photo-1601950214411-4296bb87ee10?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="">
+                        </div>
+                        <div class="col two">
+                            <img src="https://images.unsplash.com/photo-1602054700653-0a4aba77614c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=329&q=80" alt="">
+                        </div>
+                        <div class="col three">
+                            <img src="https://images.unsplash.com/photo-1602006688509-0ca4bcbabf4f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <div class="foot">
+                    <p>&copy; Ayush Kamboj</p>
+                    <div class="social-media">
+                        <a href="">Facebook</a>
+                        <a href="">Instagram</a>
+                        <a href="">Github</a>
+                        <a href="">Twitter</a>
+                    </div>
+                </div>
+            </footer>
+        </main>
+    </body>
+</html>
