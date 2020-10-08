@@ -63,6 +63,11 @@ a{
     padding: 10px;
     color: white;
     padding-right: 0;
+    font-weight: 600;
+}
+
+.green{
+    color: rgb(88 183 104);
 }
 
 .container{
